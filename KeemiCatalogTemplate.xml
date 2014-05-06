@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <info format="1.0">
+    <title>The title of the catalog</title>
+    <cover>
+      <media type="image" ref="Cover.jpg"/>
+    </cover>
+    <author>
+      <name>The names of the authors</name>
+    </author>
+    <publisher>
+      <name>The name of the publisher</name>
+      <link>www.publisher-website.com</link>
+    </publisher>
+    <description>A short description ...</description>
+    <language>english</language>
+    <topic>General</topic>
+    <download>https://github.com/PaaSQ/KeemiCatalogTemplate/archive/master.zip</download>
+    <about>
+      <section>
+        <title>Further detailed informations</title>
+        <text>...</text>
+      </section>
+      <section>
+        <title>Copyright</title>
+        <text>...</text>
+      </section>
+    </about>
+    <version>1.0</version>
+  </info>
+  <questionList>
+    <question name="question1" type="order" topic="topic1">
+      <text>Order the items properly!</text>
+      <answer>
+        <answerItem correct="yes">
+          <text>Item 1</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <text>Item 2</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <text>Item 3</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <text>Item 4</text>
+        </answerItem>
+      </answer>
+    </question>
+    <question name="question2" type="singleChoice" topic="topic2">
+      <title>The title of the question</title>
+      <text>Which option is correct?</text>
+      <answer>
+        <answerItem correct="no">
+          <text>Option 1</text>
+          <media type="image" ref="image144x144.png"/>
+        </answerItem>
+        <answerItem correct="no">
+          <text>Option 2</text>
+          <media type="image" ref="image144x144.png"/>
+        </answerItem>
+        <answerItem correct="yes" explanation="explanation1">
+          <text>Option 3 ( the correct one )</text>
+          <media type="image" ref="image144x144.png"/>
+        </answerItem>
+        <answerItem correct="no">
+          <text>Option 4</text>
+          <media type="image" ref="image144x144.png"/>
+        </answerItem>
+      </answer>
+      <resourceList>
+        <resource name="resource1"/>
+      </resourceList>
+    </question>
+    <question name="question3" type="keywordItemMatch" topic="topic3">
+      <text>Give the rules which apply to ...?</text>
+      <answer>
+        <mediaList>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+        </mediaList>
+        <answerItem correct="yes">
+          <keyWordList>word1, word2, word 3</keyWordList>
+          <text>Rule 1</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <keyWordList>word4, word5, word 6</keyWordList>
+          <text>Rule 2</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <keyWordList>word7, word8, word 9</keyWordList>
+          <text>Rule 3</text>
+        </answerItem>
+        <answerItem correct="yes">
+          <keyWordList>word10, word11, word 12</keyWordList>
+          <text>Rule 4</text>
+        </answerItem>
+      </answer>
+    </question>
+  </questionList>
+  <mediaList>
+    <media type="image" ref="image144x144.png" label="A label ..." showLabelBeforeEvaluated="no"/>
+  </mediaList>
+  <resourceList>
+    <resource name="resource1" type="website">
+      <title>What is a resource?</title>
+      <link>http://en.wikipedia.org/wiki/Resource</link>
+    </resource>
+  </resourceList>
+  <topicList>
+    <topic name="topic1">
+      <title>The title of topic 1</title>
+    </topic>
+    <topic name="topic2">
+      <title>The title of topic 2</title>
+    </topic>
+    <topic name="topic3">
+      <title>The title of topic 3</title>
+    </topic>
+  </topicList>
+  <explanationList>
+    <explanation name="explanation1">
+      <title>The title of explanation 1</title>
+      <section>
+        <text>A short description ...</text>
+      </section>
+    </explanation>
+    <explanation name="explanation2">
+      <title>The title of explanation 2</title>
+      <section>
+        <title>Title of section 1</title>
+        <text>A short description ...</text>
+        <text>...</text>
+        <text>...</text>
+        <mediaList>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+          <media type="image" ref="image144x144.png"/>
+        </mediaList>
+      </section>
+    </explanation>
+  </explanationList>
+</catalog>
